@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/main.css">
+  <style> 
+/* Container to position the image and button */
+        .image-container {
+            position: relative;
+            width: 100%;
+        }
+
+        /* Full-width responsive image */
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Centered button over the image */
+        .image-container .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #555;
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .image-container .btn:hover {
+            background-color: black;
+        }
+</style>
+</head>
+<body>
+    <section>
+   <a href="watchVideoTutorial" class="video-thumb">
+            <span>Watch Video</span>
+        </a>
+        <p>
+            Use this mode for a fast, accurate, contactless measurement of planar wounds.
+        </p>
+        <ol>
+            <li>
+                Place a Calibration Marker next to the wound.
+            </li>
+            <li>
+                Ensure optimal visibility and lighting for the entire wound.
+                <ul>
+                    <li class="icon-sun">
+                        Maintain uniform lighting, avoiding harsh shadows, highlights, and overexposure.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Hold your device parallel to the marker and close enough to the wound, ensuring the wound occupies at least 1/3 of the screen.
+                <ul>
+                    <li class="icon-nonparallel">
+                        The app will notify you when the device is not parallel to the marker.
+                    </li>
+                    <li class="icon-zoom">
+                        For smaller wounds, maintain a closer distance to the wound. 
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Capture the photo.
+            </li>
+        </ol>
+    </section>
+</body>
